@@ -2,7 +2,7 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="8.00"
-	Name="Xdwsmpl7"
+	Name="ReverseXdw"
 	ProjectGUID="{75679132-A0CF-49F8-BB33-A73C4083E84F}"
 	>
 	<Platforms>
@@ -37,7 +37,7 @@
 			<Tool
 				Name="VCMIDLTool"
 				MkTypLibCompatible="true"
-				TypeLibraryName=".\Release/Xdwsmpl7.tlb"
+				TypeLibraryName=".\Release/ReverseXdw.tlb"
 				HeaderFileName=""
 			/>
 			<Tool
@@ -49,7 +49,7 @@
 				StringPooling="true"
 				RuntimeLibrary="0"
 				EnableFunctionLevelLinking="true"
-				PrecompiledHeaderFile=".\Release/Xdwsmpl7.pch"
+				PrecompiledHeaderFile=".\Release/ReverseXdw.pch"
 				AssemblerListingLocation=".\Release/"
 				ObjectFile=".\Release/"
 				ProgramDataBaseFileName=".\Release/"
@@ -70,10 +70,10 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="odbc32.lib odbccp32.lib ..\lib\xdwapi.lib"
-				OutputFile=".\Release/Xdwsmpl7.exe"
+				OutputFile=".\Release/ReverseXdw.exe"
 				LinkIncremental="1"
 				SuppressStartupBanner="true"
-				ProgramDatabaseFile=".\Release/Xdwsmpl7.pdb"
+				ProgramDatabaseFile=".\Release/ReverseXdw.pdb"
 				SubSystem="1"
 				TargetMachine="1"
 			/>
@@ -89,7 +89,7 @@
 			<Tool
 				Name="VCBscMakeTool"
 				SuppressStartupBanner="true"
-				OutputFile=".\Release/Xdwsmpl7.bsc"
+				OutputFile=".\Release/ReverseXdw.bsc"
 			/>
 			<Tool
 				Name="VCFxCopTool"
@@ -128,7 +128,7 @@
 			<Tool
 				Name="VCMIDLTool"
 				MkTypLibCompatible="true"
-				TypeLibraryName=".\Debug/Xdwsmpl7.tlb"
+				TypeLibraryName=".\Debug/ReverseXdw.tlb"
 				HeaderFileName=""
 			/>
 			<Tool
@@ -138,7 +138,7 @@
 				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE"
 				MinimalRebuild="true"
 				RuntimeLibrary="1"
-				PrecompiledHeaderFile=".\Debug/Xdwsmpl7.pch"
+				PrecompiledHeaderFile=".\Debug/ReverseXdw.pch"
 				AssemblerListingLocation=".\Debug/"
 				ObjectFile=".\Debug/"
 				ProgramDataBaseFileName=".\Debug/"
@@ -160,11 +160,11 @@
 			<Tool
 				Name="VCLinkerTool"
 				AdditionalDependencies="odbc32.lib odbccp32.lib ..\lib\xdwapi.lib"
-				OutputFile=".\Debug/Xdwsmpl7.exe"
+				OutputFile=".\Debug/ReverseXdw.exe"
 				LinkIncremental="2"
 				SuppressStartupBanner="true"
 				GenerateDebugInformation="true"
-				ProgramDatabaseFile=".\Debug/Xdwsmpl7.pdb"
+				ProgramDatabaseFile=".\Debug/ReverseXdw.pdb"
 				SubSystem="1"
 				TargetMachine="1"
 			/>
@@ -180,7 +180,7 @@
 			<Tool
 				Name="VCBscMakeTool"
 				SuppressStartupBanner="true"
-				OutputFile=".\Debug/Xdwsmpl7.bsc"
+				OutputFile=".\Debug/ReverseXdw.bsc"
 			/>
 			<Tool
 				Name="VCFxCopTool"
@@ -204,7 +204,7 @@
 			Filter="cpp;c;cxx;rc;def;r;odl;hpj;bat;for;f90"
 			>
 			<File
-				RelativePath="Xdwsmpl7.cpp"
+				RelativePath="ReverseXdw.cpp"
 				>
 				<FileConfiguration
 					Name="Release|Win32"
